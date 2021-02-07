@@ -1,0 +1,92 @@
+body {
+    background: #37474F;
+    /* background: url("https://i.imgur.com/0AsaLWG.png"); */
+    font-family:'Roboto', sans-serif;
+    color: #ECEFF1;
+}
+
+main {
+    text-align: center;
+}
+
+.switch {
+    text-align: center;
+    background:#607D8B;
+    border: .3rem solid #263238;
+    padding: 2%;    
+    margin: 2%;
+    width: 8%;
+    font-size: 200%;
+    color:#ECEFF1;
+    transition: .2s linear all;
+    float: left;
+}
+
+.switch input {
+    margin: 0 auto;
+    width: 80%;
+    padding: 5% 0% 5% 0%;
+    font-size: 80%;
+    cursor: pointer;
+    transition: .2s linear all;
+    border: none;
+}
+
+.active {
+    background: #00C853;
+    color: #fff;
+}
+
+/*
+.switch input {
+    margin: 0 auto;
+    width: 80%;
+    padding: 5% 0% 5% 0%;
+    font-size: 80%;
+    cursor: pointer;
+    transition: .2s linear all;
+    border: none;
+}
+*/
+
+.switch input:hover {
+    border: none;
+    transform: scale(1.1);
+}
+
+.switch:hover {
+    background: #455A64;
+}
+
+.outputs .switch {
+    transition: none;
+}
+
+.outputs .switch {
+    background: #607D8B;
+}
+
+.outputs .switch input {
+    cursor: not-allowed;
+    outline: none;
+    transition: none;
+}
+
+.outputs .switch input:hover {
+    transform: none;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.outputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-switch {
+    width: 7%;
+    margin: 0;
+}

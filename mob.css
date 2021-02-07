@@ -1,0 +1,17 @@
+@media (min-width: 320px) and (max-width: 374px) {
+    .switch {
+        font-size: 150%;
+        border: .1rem solid #263238;
+        width: 35%;
+        margin: 1%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 1024px) {
+    .switch {
+        font-size: 150%;
+        border: .1rem solid #263238;
+        width: 25%;
+        margin: 1%;
+    }
+}
